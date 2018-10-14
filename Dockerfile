@@ -1,7 +1,7 @@
 FROM alpine
-MAINTAINER Josh Kastang <josh.kastang@gmail.com>
+MAINTAINER cyian-1756
 
-ENV RIPME_VER 1.7.6
+ENV RIPME_VER 1.7.68
 
 RUN set -xe \
     && apk add --no-cache ca-certificates \
