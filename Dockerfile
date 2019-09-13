@@ -1,7 +1,7 @@
 FROM alpine
 MAINTAINER cyian-1756
 
-ENV RIPME_VER 1.7.84
+ENV RIPME_VER 1.7.87
 
 RUN set -xe \
     && apk add --no-cache ca-certificates \
