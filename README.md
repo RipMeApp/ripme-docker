@@ -8,14 +8,13 @@ To build the docker image run
 ```
 git clone https://github.com/RipMeApp/ripme-docker.git
 
-docker build ripme-docker
-
+docker build --tag ripme ripme-docker
 ```
 
 ## Usage
 
 
-`docker run -i -t $TAG -h` 
+`docker run -i -t ripme -h` 
 ```
 Loaded file:/app/ripme.jar!/rip.properties
 Loaded log4j.properties
